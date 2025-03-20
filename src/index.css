@@ -1,0 +1,143 @@
+/* @import "tailwindcss"; */
+@import "../node_modules/tailwindcss";
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid rgb(6, 182, 212);
+    box-shadow: 0 0 10px rgba(6, 182, 212, 0.3);
+}
+
+.mainHeroText {
+    will-change: transform, opacity;
+}
+
+.animate-float {
+    will-change: transform;
+}
+
+.feature-card {
+    will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+}
+
+.feature-icon {
+    will-change: transform;
+    transform: translateZ(0);
+}
+
+.map-animation {
+    will-change: transform;
+    transform: translateZ(0);
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid rgb(6, 182, 212);
+    box-shadow: 0 0 10px rgba(6, 182, 212, 0.3);
+}
+
+.glassmorphism-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    transition: all 0.3s ease;
+}
+
+.glassmorphism-card:hover {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(6, 182, 212, 0.15);
+}
+
+.cardItemImage {
+    min-height: 150px;
+    min-width: 200px;
+}
+
+.cssbuttons-io-button {
+    background: #ffffff61;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    /* box-shadow: inset 0 0 1.6em -0.6em #714da6; */
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b991;
+    right: 0.3em;
+    transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #7b52b9;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+}
+
+.mainHeroText {
+    top: -70px;
+}
+
+.mainMenu{
+    width: 50%;
+    left: 25%;
+    margin: 0px auto;
+}
+
+.paddingTop{
+    padding-top: 200px;
+}
+
+.smallPaddingTop {
+    padding-top: 100px;
+}
