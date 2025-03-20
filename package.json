@@ -1,6 +1,6 @@
 {
   "name": "ai-planner",
-  "homepage": "https://MallevS.github.io/AI-TRIP-PLANNER/",
+  "homepage": "https://MallevS.github.io/AI-TRIP-PLANNER/", 
   "private": true,
   "version": "0.0.0",
   "type": "module",
